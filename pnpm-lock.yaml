@@ -30,6 +30,9 @@ importers:
       '@eslint/js':
         specifier: ^9.13.0
         version: 9.15.0
+      '@storybook/addon-a11y':
+        specifier: ^8.4.4
+        version: 8.4.4(storybook@8.4.4(prettier@3.3.3))
       '@storybook/addon-essentials':
         specifier: ^8.4.4
         version: 8.4.4(@types/react@18.3.12)(storybook@8.4.4(prettier@3.3.3))
@@ -552,6 +555,11 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  '@storybook/addon-a11y@8.4.4':
+    resolution: {integrity: sha512-xXNOG4Bw/v8rg2Zq/ZJnZSLWfpfkfnZjn0sQVLOe5JcDxavkh5o+WvQ6Tc2w/kK/ophCd7nbTotywrtdQYGNKw==}
+    peerDependencies:
+      storybook: ^8.4.4
+
   '@storybook/addon-actions@8.4.4':
     resolution: {integrity: sha512-+Dd6alcieS6UN7IKhXLuhyQYQMu9HG/Tdr790a4EOQKpJM1NxIMuPuUH3fAoKfa9VhtI1BxTBr7zNtzg9Akqhg==}
     peerDependencies:
@@ -951,6 +959,10 @@ packages:
   available-typed-arrays@1.0.7:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
+
+  axe-core@4.10.2:
+    resolution: {integrity: sha512-RE3mdQ7P3FRSe7eqCWoeQ/Z9QXrtniSjp1wUjt5nRC3WIpz5rSCve6o3fsZ2aCpJtrZjSZgjwXAoTO5k4tEI0w==}
+    engines: {node: '>=4'}
 
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
@@ -2570,6 +2582,12 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.27.2':
     optional: true
 
+  '@storybook/addon-a11y@8.4.4(storybook@8.4.4(prettier@3.3.3))':
+    dependencies:
+      '@storybook/addon-highlight': 8.4.4(storybook@8.4.4(prettier@3.3.3))
+      axe-core: 4.10.2
+      storybook: 8.4.4(prettier@3.3.3)
+
   '@storybook/addon-actions@8.4.4(storybook@8.4.4(prettier@3.3.3))':
     dependencies:
       '@storybook/global': 5.0.0
@@ -3077,6 +3095,8 @@ snapshots:
   available-typed-arrays@1.0.7:
     dependencies:
       possible-typed-array-names: 1.0.0
+
+  axe-core@4.10.2: {}
 
   balanced-match@1.0.2: {}
 
