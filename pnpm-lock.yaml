@@ -69,6 +69,9 @@ importers:
       '@whitespace/storybook-addon-html':
         specifier: ^6.1.1
         version: 6.1.1(prettier@3.3.3)(react-syntax-highlighter@15.6.1(react@18.3.1))
+      chromatic:
+        specifier: ^11.18.1
+        version: 11.18.1
       eslint:
         specifier: ^9.13.0
         version: 9.15.0(jiti@1.21.6)
