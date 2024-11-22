@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import { ArticleCard } from "./ArticleCard";
+import { ArticleCard } from "../components/ldc/ArticleCard";
 
 const meta = {
   title: "LDC Website/Article Card",
