@@ -14,6 +14,11 @@ const meta = {
     slug: { control: "text" },
   },
   args: {},
+  render: (args) => (
+    <div className="max-w-[300px]">
+      <ArticleCard {...args} />
+    </div>
+  ),
 } satisfies Meta<typeof ArticleCard>;
 
 export default meta;
