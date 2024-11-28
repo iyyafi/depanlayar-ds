@@ -7,31 +7,31 @@ import { ArticleCard } from "./ArticleCard";
 
 const articles = [
     {
-        imageSrc :"https://a.storyblok.com/f/294243/1080x1080/7433b84310/img-article-3.webp/m/360x360",
+        imageSrc :"https://www.longdistancecreator.com/wp-content/uploads/2022/10/b8e9b4b97ffacaf0636715c6a06bc105.png.webp",
         imageAlt :"Image Alt articles",
-        title :"Landing Page Sekolah Musik di Surabaya",
-        teaser :"Kita semua sudah familiar dengan manfaat belajar musik untuk otak kita; apalagi, untuk anak-anak.",
+        title :"Cara Memanfaatkan Algoritma TikTok",
+        teaser :"Sudah buat akun TikTok? ingin videomu FYP? Untuk mengetahui lebih dalam mengenai TikTok, coba kamu pahami cara memanfaatkan",
         slug :"/showcase/landing-page-sekolah-musik-di-surabaya",
     },
     {
-        imageSrc :"https://a.storyblok.com/f/294243/1080x1080/7433b84310/img-article-3.webp/m/360x360",
+        imageSrc :"https://www.longdistancecreator.com/wp-content/uploads/2022/10/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtNTMzLW5lb24tMDA3LWwyb2JtMHQyLmpwZw-1.webp",
         imageAlt :"Image Alt articles",
-        title :"News Portal 5 Negara Travel Startup Besar di Indonesia",
-        teaser :"Ini adalah era kehausan perusahaan dan brand yang terus berusaha untuk meningkatkan SEO dan traffic dari",
+        title :"Ingin Videomu FYP? Yuk, Cari Tahu Algoritma TikTok",
+        teaser :"Banyak orang yang menginginkan videonya FYP di TikTok. Hal ini perlu memahami cara kerja algoritma TikTok yang akan berpengaruh pada viralnya",
         slug :"/showcase/landing-page-sekolah-musik-di-surabaya",
     },
     {
-        imageSrc :"https://a.storyblok.com/f/294243/1080x1080/7433b84310/img-article-3.webp/m/360x360",
+        imageSrc :"https://www.longdistancecreator.com/wp-content/uploads/2023/09/Menyelami-Dasar-Copywriting-batch-26.png.webp",
         imageAlt :"Image Alt articles",
-        title :"Redesign Situs Web Institusi Pendidikan S2",
-        teaser :"Terdapat kesalahpahaman bahwa universitas tidak perlu memperhatikan situs mereka",
+        title :"Menyelami Dasar Copywriting Batch 2: Pandangan",
+        teaser :"Webinar ini akan membantumu menyelami dunia copywriting. Mempelajari teori dan dasar perencanaan Copywriting, bagaimana peluangnya di dunia",
         slug :"/showcase/landing-page-sekolah-musik-di-surabaya",
     },
     {
-        imageSrc :"https://a.storyblok.com/f/294243/1080x1080/7433b84310/img-article-3.webp/m/360x360",
+        imageSrc :"https://www.longdistancecreator.com/wp-content/uploads/2023/09/Burnout-Managementtt2.png.webp",
         imageAlt :"Image Alt articles",
-        title :"Website Development Perusahaan Otomotif Terbesar di Indonesia",
-        teaser :"Topik-topik dunia perkantoran selalu trend dan viral dengan banyaknya “budak korporat” yang",
+        title :"Burnout Management: Teknik Mengelola Stress Biar Kamu Tidak",
+        teaser :"Dalam webinar ini kamu akan mengenal tentang tipe-tipe stress yang bisa mempengaruhi produktifitasmu. Kamu juga akan mempelajari tentang stress",
         slug :"/showcase/landing-page-sekolah-musik-di-surabaya",
     },
 ]

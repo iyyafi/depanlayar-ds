@@ -18,8 +18,8 @@ type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
     args:{
-        headline: "We’ll Take Care of Your Business as if It’s Our Own",
-        buttonLink: "case-study",
-        buttonText: "More Project Showcase"
+        headline: "OUR LATEST UPDATES",
+        buttonLink: "blog",
+        buttonText: "DISCOVER MORE"
     }
 }
