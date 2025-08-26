@@ -1,3 +1,5 @@
+import "../src/tailwind.css";
+
 /** @type { import('@storybook/html-vite').Preview } */
 const preview = {
   parameters: {
