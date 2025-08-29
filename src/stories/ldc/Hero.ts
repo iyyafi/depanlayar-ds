@@ -16,9 +16,7 @@ export const createHero = ({
   primaryText,
 }: HeroProps) => {
   const section = document.createElement("section");
-  section.className = clsx(
-    "container mt-12 flex flex-col items-center gap-4 lg:mt-20"
-  );
+  section.className = clsx("mt-12 flex flex-col items-center gap-4 lg:mt-20");
 
   // Create and append image if imageSrc exists
   if (imageSrc) {
@@ -35,7 +33,7 @@ export const createHero = ({
   if (headline) {
     const h1 = document.createElement("h1");
     h1.className = clsx(
-      "w-[90%] text-center font-sans text-2xl leading-tight font-semibold text-[#231f20] lg:w-[70vw] lg:text-6xl"
+      "w-[90%] text-center font-[Montserrat] text-2xl leading-tight font-semibold text-[#231f20] lg:w-[70vw] lg:text-6xl",
     );
     h1.textContent = headline;
     section.appendChild(h1);
@@ -45,7 +43,7 @@ export const createHero = ({
   if (subheadline) {
     const h2 = document.createElement("h2");
     h2.className = clsx(
-      "w-[90%] text-center text-base font-semibold text-[#231f20] lg:w-[70vw] lg:text-2xl"
+      "w-[90%] text-center font-[Raleway] text-base font-semibold text-[#231f20] lg:w-[70vw] lg:text-2xl",
     );
     h2.textContent = subheadline;
     section.appendChild(h2);
@@ -55,7 +53,7 @@ export const createHero = ({
   if (primaryText) {
     const h2Primary = document.createElement("h2");
     h2Primary.className = clsx(
-      "w-[90%] text-center text-base text-[#9b9b9b] lg:w-[70vw] lg:text-2xl"
+      "w-[90%] text-center font-[Raleway] text-base text-[#9b9b9b] lg:w-[70vw] lg:text-2xl",
     );
     h2Primary.textContent = primaryText;
     section.appendChild(h2Primary);
