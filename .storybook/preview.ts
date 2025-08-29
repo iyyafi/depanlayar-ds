@@ -1,7 +1,7 @@
+import type { Preview } from "@storybook/html-vite";
 import "../src/tailwind.css";
 
-/** @type { import('@storybook/html-vite').Preview } */
-const preview = {
+const preview: Preview = {
   parameters: {
     controls: {
       matchers: {
