@@ -11,6 +11,18 @@ const preview = {
     },
     docs: {
       codePanel: true,
+      source: {
+        transform: async (source) => {
+          const prettier = await import("prettier/standalone");
+          const prettierPluginBabel = await import("prettier/plugins/babel");
+          const prettierPluginHTML = await import("prettier/plugins/html");
+
+          return prettier.format(source, {
+            parser: "html",
+            plugins: [prettierPluginBabel, prettierPluginHTML],
+          });
+        },
+      },
     },
   },
 };
