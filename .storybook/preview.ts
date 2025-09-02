@@ -1,5 +1,6 @@
-import type { Preview } from "@storybook/html-vite";
+import type { Preview, HtmlRenderer } from "@storybook/html-vite";
 import "../src/tailwind.css";
+import { withThemeByClassName } from "@storybook/addon-themes";
 
 const preview: Preview = {
   parameters: {
@@ -25,6 +26,15 @@ const preview: Preview = {
       },
     },
   },
+  decorators: [
+    withThemeByClassName<HtmlRenderer>({
+      themes: {
+        light: "",
+        dark: "dark",
+      },
+      defaultTheme: "light",
+    }),
+  ],
 };
 
 export default preview;
