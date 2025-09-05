@@ -49,6 +49,7 @@ export const scrollBlurWord = ({ text }: scrollBlurWordProps) => {
 
   const srOnly = document.createElement("span");
   srOnly.className = clsx(
+    "sr-only",
     "[--i:1]",
     "[--i:2]",
     "[--i:3]",
@@ -91,6 +92,19 @@ export const scrollBlurWord = ({ text }: scrollBlurWordProps) => {
   );
 
   section.appendChild(div);
+
+  const notes = ` add this keyframe in css files or @theme tailwind
+    @keyframes fx {
+    0% {
+      filter: blur(20px);
+      opacity: 0;
+    }
+    100% {
+      filter: blur(0px);
+      opacity: 1;
+    }
+  } `;
+  section.appendChild(document.createComment(notes));
 
   return section;
 };
