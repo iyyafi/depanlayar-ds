@@ -10,7 +10,7 @@ export const scrollBlurWord = ({ text }: scrollBlurWordProps) => {
   section.className = clsx(
     "[--containerHeight:3000px]",
     "[--pxPerWord:calc((var(--containerHeight)-100vh)/16)]",
-    "text-5xl",
+    "text-5xl text-slate-900 dark:text-slate-200",
     "h-screen",
     "[scroll-timeline-name:--section]",
     "overflow-y-scroll",
@@ -105,6 +105,14 @@ export const scrollBlurWord = ({ text }: scrollBlurWordProps) => {
     }
   } `;
   section.appendChild(document.createComment(notes));
+
+  const direction = document.createElement("div");
+  direction.className = clsx(
+    "fixed inset-x-0 bottom-8 flex animate-bounce items-center justify-center text-base text-slate-900 opacity-80 dark:text-slate-200",
+  );
+  direction.textContent = "scroll down";
+
+  section.appendChild(direction);
 
   return section;
 };
