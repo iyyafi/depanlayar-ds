@@ -12,6 +12,14 @@ export default {
   argTypes: {
     text: { control: "text" },
   },
+  parameters: {
+    docs: {
+      description: {
+        component:
+          "Source: <a href='https://codepen.io/jh3y/pen/eYaGzqv' target='_blank'>Codepen by @jh3y</a>",
+      },
+    },
+  },
 };
 
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args

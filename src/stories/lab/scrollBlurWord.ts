@@ -9,7 +9,7 @@ export const scrollBlurWord = ({ text }: scrollBlurWordProps) => {
   const section = document.createElement("section");
   section.className = clsx(
     "[--containerHeight:3000px]",
-    "[--pxPerWord:calc((var(--containerHeight)-100vh)/16)]",
+    "[--pxPerWord:calc((var(--containerHeight)-100vh)/20)]",
     "text-5xl text-slate-900 dark:text-slate-200",
     "h-screen",
     "[scroll-timeline-name:--section]",
@@ -21,7 +21,7 @@ export const scrollBlurWord = ({ text }: scrollBlurWordProps) => {
 
   // Create the paragraph element
   const p = document.createElement("p");
-  p.className = clsx("sticky top-20 p-20");
+  p.className = clsx("sticky top-10 p-10");
 
   // Array of words to create spans for
   const words = text.split(" ");

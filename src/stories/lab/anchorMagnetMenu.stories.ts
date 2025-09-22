@@ -40,7 +40,7 @@ export default {
     docs: {
       description: {
         component:
-          "Source: <a href='https://codepen.io/jh3y/pen/GRapZqO' target='_blank'>Codepen by @jh3y</a>",
+          "Source: <a href='https://codepen.io/jh3y/pen/GRapZqO' target='_blank'>Codepen by @jh3y</a><br />Browser Support: <a href='https://caniuse.com/?search=anchor-name' target='_blank'>Check in Caniuse</a>",
       },
     },
   },
